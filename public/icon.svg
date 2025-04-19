@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="#32a852"/>
+  
+  <!-- Workshop Pool Symbol -->
+  <path d="M156 196C156 176 172 160 192 160H320C340 160 356 176 356 196V316C356 336 340 352 320 352H192C172 352 156 336 156 316V196Z" fill="white"/>
+  
+  <!-- Water Ripples -->
+  <path d="M256 220C242.745 220 232 230.745 232 244C232 257.255 242.745 268 256 268C269.255 268 280 257.255 280 244C280 230.745 269.255 220 256 220Z" fill="#32a852"/>
+  <path d="M256 284C242.745 284 232 294.745 232 308C232 321.255 242.745 332 256 332C269.255 332 280 321.255 280 308C280 294.745 269.255 284 256 284Z" fill="#32a852"/>
+  
+  <!-- Workshop Tools -->
+  <path d="M192 180H320V196H192V180Z" fill="#32a852"/>
+  <path d="M192 316H320V332H192V316Z" fill="#32a852"/>
+  
+  <!-- Tool Icons -->
+  <circle cx="256" cy="244" r="8" fill="white"/>
+  <circle cx="256" cy="308" r="8" fill="white"/>
+</svg> 
