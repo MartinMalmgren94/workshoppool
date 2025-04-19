@@ -5,8 +5,6 @@ import {
   signInWithEmailAndPassword, 
   GoogleAuthProvider, 
   signInWithPopup,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  sendPasswordResetEmail
 } from 'firebase/auth';
 import { doc, getDoc } from 'firebase/firestore';
 import { auth, db } from '../firebase';

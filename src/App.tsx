@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import PoolPage from './pages/PoolPage';
+import ComponentsPage from './pages/ComponentsPage';
 import './App.css';
 
 interface PrivateRouteProps {
@@ -55,6 +56,14 @@ const App: React.FC = (): React.ReactElement => {
           element={
             <PrivateRoute>
               <PoolPage />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/components"
+          element={
+            <PrivateRoute>
+              <ComponentsPage />
             </PrivateRoute>
           }
         />
